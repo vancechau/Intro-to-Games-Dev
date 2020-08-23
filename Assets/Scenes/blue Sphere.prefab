@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 1853070962358525949}
   - component: {fileID: 1623808714485335646}
   - component: {fileID: 644414462858893854}
-  - component: {fileID: 8083814759826069963}
+  - component: {fileID: -1180057085232804699}
   m_Layer: 0
   m_Name: blue Sphere
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8083814759826069963
+--- !u!114 &-1180057085232804699
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,3 +106,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab6edac43736e144b83106988199944, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rend: {fileID: 1623808714485335646}

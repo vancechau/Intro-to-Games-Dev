@@ -45,6 +45,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\ConsolePrint.cs" />
      <Compile Include="Assets\Scenes\LoadAssets.cs" />
      <Compile Include="Assets\Scenes\Test.cs" />
  <Reference Include="UnityEngine">
